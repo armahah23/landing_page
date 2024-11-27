@@ -1,7 +1,9 @@
 import Feature from "./components/Feature"
+import Footer from "./components/Footer"
 import HeroSection from "./components/HeroSection"
 import Navbar from "./components/Navbar"
 import Price from "./components/Price"
+import Testimonials from "./components/Testimonials"
 import WorkFlow from "./components/WorkFlow"
 
 
@@ -14,6 +16,8 @@ const App = () => {
         <Feature />
         <WorkFlow />
         <Price />
+        <Testimonials />
+        <Footer />
       </div>
     </>
   )
